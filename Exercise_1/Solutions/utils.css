@@ -1,0 +1,13 @@
+/* NOTE: 'utils' in this case are classes that can be used anywhere */
+
+/* This makes an element invisible to everyone */
+/* If we were toggling visibility, say for a dropdown, we may have an 'is-visible' class */
+.is-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* This allows for an element to not be visible, but still be read by screen readers */
+.visually-hidden {
+  visibility: hidden;
+}
