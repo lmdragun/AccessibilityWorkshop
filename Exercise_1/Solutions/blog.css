@@ -8,20 +8,27 @@ ul {
 
 .blog__image {
   display: inline-block;
-  height: 200px;
+  height: 150px;
   padding: 10px;
+  position: relative;
+  top: 0;
 }
 
 .blog__title {
   font-size: 2rem;
+  color: #21102a;
 }
 
 .blog__subtitle {
   font-size: 1.8rem;
+  color: #21102a;
 }
 
 .blog__info {
   display: inline-block;
+  margin-left: 50px;
+  position: absolute;
+  top: 10%;
 }
 
 .blog a:hover,
@@ -30,7 +37,7 @@ ul {
 }
 
 .blog__links {
-  width: 150px;
+  width: 200px;
   margin: 20px;
   float: right;
   background-color: #371C47;
@@ -42,7 +49,6 @@ ul {
 }
 
 .blog__links li {
-  display: inline-block;
   padding: 5px;
 }
 
@@ -50,6 +56,36 @@ ul {
   display: block;
   margin: 10px;
   padding: 30px;
-  border: 1px solid #000000;
+  border: 1px solid #371C47;
   font-size: 1.2rem;
+}
+
+.blog__nav {
+  margin: 0 auto;
+}
+
+.blog__nav--button {
+  width: 70px;
+  height: 50px;
+  padding: 5px;
+  background-color: #d1b5e1;
+}
+
+.blog__nav--button span {
+  overflow: hidden;
+}
+
+.blog__nav--button i {
+  text-align: center;
+  /*margin: 0 auto;*/
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+
+.blog__nav--previous {
+  float: left;
+}
+
+.blog__nav--next {
+  float: right;
 }

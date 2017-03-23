@@ -10,12 +10,15 @@
       <nav class="navbar">
         <div class="navbar__user">
           <img src="../../global/images/dino.jpg" class="navbar__user--image" alt="user photo">
-          <span class="navbar__user--name">Lindsey</span>
+          <span class="navbar__user--name" aria-hidden="false">Lindsey</span>
           <a href="/settings">
-            <svg xmlns="http://www.w3.org/2000/svg" class="svg-gear" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="svg-gear__title">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg-gear" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="svg-gear__description">
               <title id="svg-gear__title">
                 gear
               </title>
+              <description>
+                settings menu icon
+              </description>
               <path d="M29.18 19.07c-1.678-2.908-.668-6.634 2.256-8.328L28.29 5.295c-.897.527-1.942.83-3.057.83-3.36 0-6.085-2.743-6.085-6.126h-6.29c.01 1.043-.25 2.102-.81 3.07-1.68 2.907-5.41 3.896-8.34 2.21L.566 10.727c.905.515 1.69 1.268 2.246 2.234 1.677 2.904.673 6.624-2.24 8.32l3.145 5.447c.895-.522 1.935-.82 3.044-.82 3.35 0 6.066 2.725 6.083 6.092h6.29c-.004-1.035.258-2.08.81-3.04 1.676-2.902 5.4-3.893 8.325-2.218l3.145-5.447c-.9-.515-1.678-1.266-2.232-2.226zM16 22.48c-3.578 0-6.48-2.902-6.48-6.48S12.423 9.52 16 9.52c3.578 0 6.48 2.902 6.48 6.48s-2.902 6.48-6.48 6.48z"/>
             </svg>
             <span class="visually-hidden">Settings</span>
@@ -24,27 +27,27 @@
       </nav>
     </header>
     <main>
-      <div class="blog">
-        <img src="../../global/images/hero.jpg" alt="image of a dog in a pumpkin costume" class="blog__image">
+      <article class="blog">
+        <img src="../../global/images/hero.jpg" alt="image of a dog in a pumpkin costume" class="blog__image" aria-hidden="false">
         <div class="blog__info">
           <h1 class="blog__title">Remus</h1>
           <h2 class="blog_subtitle">The Best Dog Ever</h2>
-          <span class="blog__info--datetime">March 30, 2017 -- 10:00am EST</span>
+          <time class="blog__info--datetime" datetime="2017-03-30 10:00">March 30, 2017 -- 10:00am EST</time>
         </div>
-        <div class="blog__links">
+        <aside class="blog__links">
           <ul class="blog__menu">
             <li>
-              <a href="/archive">Archive</a>
+              <a href="/more-pics">More Pics</a>
             </li>
             <li>
-              <a href="/favorites">Favorites</a>
+              <a href="/related">Related Posts</a>
             </li>
             <li>
-              <a href="/random">Random Post</a>
+              <a href="/video">Videos</a>
             </li>
           </ul>
-        </div>
-        <div class="blog__post">
+        </aside>
+        <article class="blog__post" aria-hidden="false">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illa argumenta propria videamus, cur omnia sint paria peccata. Aufert enim sensus actionemque tollit omnem. Aufert enim sensus actionemque tollit omnem. Duo Reges: constructio interrete. Non igitur bene. Idemque diviserunt naturam hominis in animum et corpus. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta?</p>
 
           <p>Quare attende, quaeso. Esse enim quam vellet iniquus iustus poterat inpune. Egone quaeris, inquit, quid sentiam? Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis. Facit igitur Lucius noster prudenter, qui audire de summo bono potissimum velit;</p>
@@ -52,18 +55,18 @@
           <p>Nam his libris eum malo quam reliquo ornatu villae delectari. An vero, inquit, quisquam potest probare, quod perceptfum, quod. Si longus, levis dictata sunt. Non quam nostram quidem, inquit Pomponius iocans;</p>
 
           <p>Quae in controversiam veniunt, de iis, si placet, disseramus. Cur igitur, cum de re conveniat, non malumus usitate loqui? Tum mihi Piso: Quid ergo? Si mala non sunt, iacet omnis ratio Peripateticorum. Collige omnia, quae soletis: Praesidium amicorum. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit.</p>
-        </div>
+        </article>
         <div class="blog__nav">
-          <button class="previous-button">
-            <i class="icon-arrow-left"></i>
-            <span class="visually-hidden">Previous</span>
+          <button class="blog__nav--button blog__nav--previous" name="previous button">
+            <i class="icon-arrow-left" aria-hidden="true"></i>
+            <span class="visually-hidden">Older</span>
           </button>
-          <button class="next-button">
-            <i class="icon-arrow-right"></i>
-            <span class="visually-hidden">Next</span>
+          <button class="blog__nav--button blog__nav--next" name="next button">
+            <span class="visually-hidden">Newer</span>
+            <i class="icon-arrow-right" aria-hidden="true"></i>
           </button>
         </div>
-      </div>
+      </article>
     </main>
     <footer>
       <div class="is-hidden">Version Number Information</div>
