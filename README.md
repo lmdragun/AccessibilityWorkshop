@@ -2,7 +2,7 @@
 
 This is a workshop for those wanting to see how accessibility concerns are reflected in code.
 
-##Steps:
+## Steps:
 
 * Each Exercise is a "find all" of accessibility issues to be fixed
 
