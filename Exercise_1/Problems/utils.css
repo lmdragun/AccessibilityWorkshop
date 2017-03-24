@@ -1,0 +1,10 @@
+/* NOTE: 'utils' in this case are classes that can be used anywhere */
+
+.is-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+:focus {
+  outline: none;
+}

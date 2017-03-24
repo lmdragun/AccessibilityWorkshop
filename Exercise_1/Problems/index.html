@@ -1,21 +1,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Exercise 1 -- Solutions</title>
+    <title>Exercise 1 -- Problems</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="navbar__user">
-          <a href="/profile.html"><img src="../../global/images/dino.jpg" class="navbar__user--image" alt="user profile"></a>
-          <span class="navbar__user--name" aria-hidden="false">Lindsey</span>
+          <a href="/profile.html"><img src="../../global/images/dino.jpg" class="navbar__user--image" alt="user avatar"></a>
+          <span class="navbar__user--name">Lindsey</span>
           <a href="/settings">
-            <svg xmlns="http://www.w3.org/2000/svg" class="svg-gear" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="svg-gear__title">
-              <title id="svg-gear__title">
-                settings
-              </title>
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg-gear" width="32" height="32" viewBox="0 0 32 32">
               <path d="M29.18 19.07c-1.678-2.908-.668-6.634 2.256-8.328L28.29 5.295c-.897.527-1.942.83-3.057.83-3.36 0-6.085-2.743-6.085-6.126h-6.29c.01 1.043-.25 2.102-.81 3.07-1.68 2.907-5.41 3.896-8.34 2.21L.566 10.727c.905.515 1.69 1.268 2.246 2.234 1.677 2.904.673 6.624-2.24 8.32l3.145 5.447c.895-.522 1.935-.82 3.044-.82 3.35 0 6.066 2.725 6.083 6.092h6.29c-.004-1.035.258-2.08.81-3.04 1.676-2.902 5.4-3.893 8.325-2.218l3.145-5.447c-.9-.515-1.678-1.266-2.232-2.226zM16 22.48c-3.578 0-6.48-2.902-6.48-6.48S12.423 9.52 16 9.52c3.578 0 6.48 2.902 6.48 6.48s-2.902 6.48-6.48 6.48z"/>
             </svg>
           </a>
@@ -23,14 +19,14 @@
       </nav>
     </header>
     <main>
-      <article class="blog">
-        <img src="../../global/images/hero.jpg" alt="" class="blog__image" aria-hidden="true">
+      <div class="blog">
+        <img src="../../global/images/hero.jpg" alt="picture of a dog" class="blog__image">
         <div class="blog__info">
-          <h1 class="blog__title">Remus</h1>
-          <h2 class="blog_subtitle">The Best Dog Ever</h2>
-          <time class="blog__info--datetime" datetime="2017-03-30 10:00">March 30, 2017 -- 10:00am EST</time>
+          <h2 class="blog__title">Remus</h2>
+          <h4 class="blog_subtitle">The Best Dog Ever</h4>
+          <p class="blog__info--datetime">March 30, 2017 -- 10:00am EST</p>
         </div>
-        <aside class="blog__links">
+        <div class="blog__links">
           <ul class="blog__menu">
             <li>
               <a href="/more-pics.html">More Pics</a>
@@ -41,9 +37,15 @@
             <li>
               <a href="/video.html">Related Videos</a>
             </li>
+            <li>
+              <a href="/random-post.html">Random Post</a>
+            </li>
+            <li>
+              <a href="/links.html">General Links</a>
+            </li>
           </ul>
-        </aside>
-        <article class="blog__post">
+        </div>
+        <div class="blog__post">
           <p>Remus is an awesome little guy. He is a 15 year old tweenie dachshund. He was the runt of the litter, so he's not as "regal" or "long" as he could be, but I think he's perfect!</p>
 
           <p>His favorite activities are sleeping, cuddling, rolling on his back to look cute so he gets more cuddles, and digging a complicated network of tunnels in my parents' backyard to hunt for moles.</p>
@@ -51,18 +53,14 @@
           <p>When he was younger, he gave us a real scare--he suddenly developed a back problem and had to go in for emergency back surgery...during a blizzard. We were told he'd never walk again.</p>
 
           <p>But he does walk now, though one of his legs only works from the hip-up. And when he runs, he bunny hops! He also <em>loves</em> to swim (though he is convinced hoses are his natural enemy, so they better watch out!).</p>
-        </article>
-      </article>
+        </div>
+      </div>
       <nav class="bottom-nav">
         <button class="bottom-nav--button bottom-nav--previous" name="previous button">
-          <i class="icon-arrow-left" aria-hidden="true"></i>
-          <span>Older <span class="visually-hidden" aria-hidden="false">Posts</span></span>
+          <i class="icon-arrow-left"></i>
         </button>
         <button class="bottom-nav--button bottom-nav--next" name="next button">
-
-          <span>Newer <span class="visually-hidden" aria-hidden="false">Posts</span></span>
-          <span class="visually-hidden">Posts</span>
-          <i class="icon-arrow-right" aria-hidden="true"></i>
+          <i class="icon-arrow-right"></i>
         </button>
       </nav>
     </main>

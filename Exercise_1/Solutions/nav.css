@@ -38,3 +38,44 @@
 .navbar__user .svg-gear path {
   fill: #ffffff;
 }
+
+.bottom-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.bottom-nav--button {
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  padding: 5px;
+  overflow: hidden;
+  border: none;
+  background-color: #371C47;
+  color: #ffffff;
+}
+
+.bottom-nav--button:active {
+  background-color: #d1b5e1;
+  color: #21102a;
+}
+
+.bottom-nav--button span {
+  overflow: hidden;
+}
+
+.bottom-nav--button i {
+  /*margin: 0 auto;*/
+  font-size: 1.8rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bottom-nav--previous {
+  float: left;
+}
+
+.bottom-nav--next {
+  float: right;
+}

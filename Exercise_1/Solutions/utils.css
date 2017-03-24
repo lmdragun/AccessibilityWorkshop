@@ -10,5 +10,7 @@
 /* This allows for an element to not be visible, but still be read by screen readers */
 .visually-hidden {
   visibility: hidden;
-  outline: none;
+  width: 0;
+  height: 0;
+  font-size: 0;
 }

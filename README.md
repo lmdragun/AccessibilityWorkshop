@@ -28,3 +28,5 @@ This is a workshop for those wanting to see how accessibility concerns are refle
 
 ## Note:
 The code is made to be as simple as possible, at the moment it is not responsive.
+
+The "solution" section is not meant to be the final say in accessibility, but contain answers to the problems we address in the workshop.
