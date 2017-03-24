@@ -2,8 +2,8 @@
   min-width: 100%;
   height: 60px;
   margin: 0 auto;
-  background-color: #af7ecc;
-  color: #ffffff;
+  background-color: #371C47;
+  color: #000000;
 }
 
 .navbar__user {
@@ -29,7 +29,7 @@
   vertical-align: middle;
 }
 
-.navbar__user .svg-gear {
+.settings-image {
   width: 20px;
   margin-left: 10px;
 }
@@ -52,8 +52,8 @@
   padding: 5px;
   overflow: hidden;
   border: none;
-  background-color: #af7ecc;
-  color: #ffffff;
+  background-color: #371C47;
+  color: #000000;
 }
 
 .bottom-nav--button span {

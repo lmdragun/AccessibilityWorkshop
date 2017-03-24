@@ -61,6 +61,10 @@
   color: #21102a;
 }
 
+.bottom-nav--button:hover {
+  cursor: pointer;
+}
+
 .bottom-nav--button span {
   overflow: hidden;
 }

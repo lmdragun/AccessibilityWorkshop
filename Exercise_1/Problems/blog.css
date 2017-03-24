@@ -34,12 +34,12 @@ ul {
   height: 150px;
   margin: 20px;
   float: right;
-  background-color: #af7ecc;
+  background-color: #371C47;
   font-size: 14px;
 }
 
 .blog__links a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
